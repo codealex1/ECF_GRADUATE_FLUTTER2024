@@ -12612,6 +12612,6 @@ input[type=submit]:hover {
   transition: background-color 0.3s ease;
 }
 
-.connexion-form input[type=submit]:hover {
+.connexion-form button[type=submit]:hover {
   background-color: #8F6B15; /* Couleur du bouton au survol */
 }/*# sourceMappingURL=main.css.map */
