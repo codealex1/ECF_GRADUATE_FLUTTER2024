@@ -1,7 +1,7 @@
 const tokenCookieName = "accesstoken";
 const RoleCookieName = "role";
 
-
+const apiUrl = "http://127.0.0.1:8000/api/";
 
 
 function getRole(){
@@ -75,9 +75,10 @@ function ShowAndHideForRoles(){
                 break;
 
             case 'admin':
-                if(!userConnected || role!="admin"){
+                if(!userConnected || role!="ROLE_ADMIN"){
                     element.classList.add("d-none");
                 }
         }
     })
 }
+

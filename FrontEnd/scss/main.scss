@@ -582,7 +582,7 @@ input[type="submit"]:hover {
     font-size: 16px;
 }
 
-.contact-form input[type="submit"] {
+.contact-form button[type="button"] {
     background-color: #B0851A; /* Couleur du bouton */
     color: #FFF;
     padding: 10px 20px;
@@ -593,7 +593,7 @@ input[type="submit"]:hover {
     transition: background-color 0.3s ease;
 }
 
-.contact-form input[type="submit"]:hover {
+.contact-form button[type="button"]:hover {
     background-color: #8F6B15; /* Couleur du bouton au survol */
 }
 
@@ -652,4 +652,8 @@ input[type="submit"]:hover {
 
 .connexion-form button[type="submit"]:hover {
     background-color: #8F6B15; /* Couleur du bouton au survol */
+}
+
+.container-inscription{
+    border: #000;
 }
