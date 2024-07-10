@@ -10,7 +10,7 @@
     <br>
     <br>
     <div class="container black">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EditionModal" data-show="admin">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EditionModal" data-show="admin" >
             Ajouter un service
         </button>
         
@@ -52,7 +52,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form>
+                <form id="form-service">
                     <div class="mb-3">
                         <label for="NamePhotoInput" class="form-label">Titre</label>
                         <input type="text" class="form-control" id="NamePhotoInput" placeholder="Petit Train" name="Titre"> 
@@ -74,7 +74,7 @@
                         <input type="text" class="form-control" id="NamePhotoInput"  name="fermeture"> 
                     </div>
                     <div class="text-center">
-                        <button type="button" class="btn btn-primary">Enregistrer</button>
+                        <button type="button" class="btn btn-primary" id="btn_service">Enregistrer</button>
                     </div>
                 </form>
             </div>
